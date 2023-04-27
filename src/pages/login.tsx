@@ -23,7 +23,7 @@ const login = () => {
   }
 
   return (
-    <div className="relative min-h-screen max-w-[640px] mx-auto bg-white pt-12">
+    <div className="relative min-h-screen max-w-[640px] mx-auto bg-white pt-8">
       <div className="py-4">
         <h1 className='text-4xl font-semibold text-center'>Log In</h1>
       </div>
