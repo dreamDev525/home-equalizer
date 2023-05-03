@@ -1,5 +1,6 @@
 import InputTxt from "@/components/inputs/InputText"
-import Checkbox from "@/components/checkbox/Checkbox"
+import Checkbox from "@/components/checkbox/AgreeCheck"
+import footer from "../components/footer"
 
 const personalDeTails = () => {
   const handleCheck = (val: boolean) => {
@@ -74,6 +75,7 @@ const personalDeTails = () => {
         ></Checkbox>
         <span className="block bg-primary rounded-full py-3 text-white text-semibold text-[16px] mt-5">Next</span>
       </div>
+      <footer />
     </div>
   )
 }
